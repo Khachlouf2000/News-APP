@@ -6,4 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scrollbarSize="55dp"
-    tools:context=".politique"/>
+    tools:context=".politique">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="36dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,13 +23,13 @@ public class MainActivity2 extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 switch (checkedId){
                     case R.id.loc_id : {
-                 startActivity(new Intent(MainActivity2.this , politique.class));
+                 startActivity(new Intent(MainActivity2.this , local.class));
                     }
                     case R.id.pol_id : {
                         startActivity(new Intent(MainActivity2.this , politique.class));
                     }
                     case R.id.sport_id : {
-                        startActivity(new Intent(MainActivity2.this , politique.class));
+                        startActivity(new Intent(MainActivity2.this , sport.class));
                     }
                 }
             }
